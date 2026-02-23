@@ -26,3 +26,35 @@
     color: var(--dark);
     cursor: pointer;
 }
+
+.logo-icon {
+    font-size: 2rem;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-menu a {
+    color: var(--gray);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.nav-menu a:hover {
+    color: var(--primary);
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    border-radius: var(--radius-full);
+    transition: var(--transition);
+}
+
+.nav-btn.primary {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white !important;
+}
